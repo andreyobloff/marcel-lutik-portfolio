@@ -1,15 +1,22 @@
 {
-  "generatedAt": "2026-05-23T07:30:56.965Z",
+  "generatedAt": "2026-05-23T07:51:08.019Z",
   "sourceFolder": "photo",
+  "photographerFolder": "photographer",
   "totalSeries": 4,
   "totalPhotos": 67,
   "heroPhoto": {
     "id": "derealisation-01",
     "title": "Derealisation — 01",
-    "description": "Фотография из серии «Derealisation». Номер 01. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3593.jpg».",
+    "description": "Фотография из серии «Derealisation».",
     "fileName": "DSCF3593.jpg",
     "sourcePath": "photo/Derealisation/DSCF3593.jpg",
     "publicPath": "photo/Derealisation/DSCF3593.webp"
+  },
+  "photographerPhoto": {
+    "title": "Марсель Лютик",
+    "fileName": "IMG_4362.jpg",
+    "sourcePath": "photographer/IMG_4362.jpg",
+    "publicPath": "photographer/IMG_4362.webp"
   },
   "series": [
     {
@@ -21,7 +28,7 @@
       "coverPhoto": {
         "id": "derealisation-01",
         "title": "Derealisation — 01",
-        "description": "Фотография из серии «Derealisation». Номер 01. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3593.jpg».",
+        "description": "Фотография из серии «Derealisation».",
         "fileName": "DSCF3593.jpg",
         "sourcePath": "photo/Derealisation/DSCF3593.jpg",
         "publicPath": "photo/Derealisation/DSCF3593.webp"
@@ -30,7 +37,7 @@
         {
           "id": "derealisation-01",
           "title": "Derealisation — 01",
-          "description": "Фотография из серии «Derealisation». Номер 01. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3593.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3593.jpg",
           "sourcePath": "photo/Derealisation/DSCF3593.jpg",
           "publicPath": "photo/Derealisation/DSCF3593.webp"
@@ -38,7 +45,7 @@
         {
           "id": "derealisation-02",
           "title": "Derealisation — 02",
-          "description": "Фотография из серии «Derealisation». Номер 02. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3602.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3602.jpg",
           "sourcePath": "photo/Derealisation/DSCF3602.jpg",
           "publicPath": "photo/Derealisation/DSCF3602.webp"
@@ -46,7 +53,7 @@
         {
           "id": "derealisation-03",
           "title": "Derealisation — 03",
-          "description": "Фотография из серии «Derealisation». Номер 03. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3611.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3611.jpg",
           "sourcePath": "photo/Derealisation/DSCF3611.jpg",
           "publicPath": "photo/Derealisation/DSCF3611.webp"
@@ -54,7 +61,7 @@
         {
           "id": "derealisation-04",
           "title": "Derealisation — 04",
-          "description": "Фотография из серии «Derealisation». Номер 04. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3616.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3616.jpg",
           "sourcePath": "photo/Derealisation/DSCF3616.jpg",
           "publicPath": "photo/Derealisation/DSCF3616.webp"
@@ -62,7 +69,7 @@
         {
           "id": "derealisation-05",
           "title": "Derealisation — 05",
-          "description": "Фотография из серии «Derealisation». Номер 05. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3628.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3628.jpg",
           "sourcePath": "photo/Derealisation/DSCF3628.jpg",
           "publicPath": "photo/Derealisation/DSCF3628.webp"
@@ -70,7 +77,7 @@
         {
           "id": "derealisation-06",
           "title": "Derealisation — 06",
-          "description": "Фотография из серии «Derealisation». Номер 06. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3647.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3647.jpg",
           "sourcePath": "photo/Derealisation/DSCF3647.jpg",
           "publicPath": "photo/Derealisation/DSCF3647.webp"
@@ -78,7 +85,7 @@
         {
           "id": "derealisation-07",
           "title": "Derealisation — 07",
-          "description": "Фотография из серии «Derealisation». Номер 07. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3654.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3654.jpg",
           "sourcePath": "photo/Derealisation/DSCF3654.jpg",
           "publicPath": "photo/Derealisation/DSCF3654.webp"
@@ -86,7 +93,7 @@
         {
           "id": "derealisation-08",
           "title": "Derealisation — 08",
-          "description": "Фотография из серии «Derealisation». Номер 08. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3660.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3660.jpg",
           "sourcePath": "photo/Derealisation/DSCF3660.jpg",
           "publicPath": "photo/Derealisation/DSCF3660.webp"
@@ -94,7 +101,7 @@
         {
           "id": "derealisation-09",
           "title": "Derealisation — 09",
-          "description": "Фотография из серии «Derealisation». Номер 09. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3663-2.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3663-2.jpg",
           "sourcePath": "photo/Derealisation/DSCF3663-2.jpg",
           "publicPath": "photo/Derealisation/DSCF3663-2.webp"
@@ -102,7 +109,7 @@
         {
           "id": "derealisation-10",
           "title": "Derealisation — 10",
-          "description": "Фотография из серии «Derealisation». Номер 10. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3666-2.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3666-2.jpg",
           "sourcePath": "photo/Derealisation/DSCF3666-2.jpg",
           "publicPath": "photo/Derealisation/DSCF3666-2.webp"
@@ -110,7 +117,7 @@
         {
           "id": "derealisation-11",
           "title": "Derealisation — 11",
-          "description": "Фотография из серии «Derealisation». Номер 11. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3668.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3668.jpg",
           "sourcePath": "photo/Derealisation/DSCF3668.jpg",
           "publicPath": "photo/Derealisation/DSCF3668.webp"
@@ -118,7 +125,7 @@
         {
           "id": "derealisation-12",
           "title": "Derealisation — 12",
-          "description": "Фотография из серии «Derealisation». Номер 12. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3713.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3713.jpg",
           "sourcePath": "photo/Derealisation/DSCF3713.jpg",
           "publicPath": "photo/Derealisation/DSCF3713.webp"
@@ -126,7 +133,7 @@
         {
           "id": "derealisation-13",
           "title": "Derealisation — 13",
-          "description": "Фотография из серии «Derealisation». Номер 13. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3738.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3738.jpg",
           "sourcePath": "photo/Derealisation/DSCF3738.jpg",
           "publicPath": "photo/Derealisation/DSCF3738.webp"
@@ -134,7 +141,7 @@
         {
           "id": "derealisation-14",
           "title": "Derealisation — 14",
-          "description": "Фотография из серии «Derealisation». Номер 14. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3746.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3746.jpg",
           "sourcePath": "photo/Derealisation/DSCF3746.jpg",
           "publicPath": "photo/Derealisation/DSCF3746.webp"
@@ -142,7 +149,7 @@
         {
           "id": "derealisation-15",
           "title": "Derealisation — 15",
-          "description": "Фотография из серии «Derealisation». Номер 15. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3783-3.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3783-3.jpg",
           "sourcePath": "photo/Derealisation/DSCF3783-3.jpg",
           "publicPath": "photo/Derealisation/DSCF3783-3.webp"
@@ -150,7 +157,7 @@
         {
           "id": "derealisation-16",
           "title": "Derealisation — 16",
-          "description": "Фотография из серии «Derealisation». Номер 16. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3788.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3788.jpg",
           "sourcePath": "photo/Derealisation/DSCF3788.jpg",
           "publicPath": "photo/Derealisation/DSCF3788.webp"
@@ -158,7 +165,7 @@
         {
           "id": "derealisation-17",
           "title": "Derealisation — 17",
-          "description": "Фотография из серии «Derealisation». Номер 17. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF3965.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF3965.jpg",
           "sourcePath": "photo/Derealisation/DSCF3965.jpg",
           "publicPath": "photo/Derealisation/DSCF3965.webp"
@@ -166,7 +173,7 @@
         {
           "id": "derealisation-18",
           "title": "Derealisation — 18",
-          "description": "Фотография из серии «Derealisation». Номер 18. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF4010.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF4010.jpg",
           "sourcePath": "photo/Derealisation/DSCF4010.jpg",
           "publicPath": "photo/Derealisation/DSCF4010.webp"
@@ -174,7 +181,7 @@
         {
           "id": "derealisation-19",
           "title": "Derealisation — 19",
-          "description": "Фотография из серии «Derealisation». Номер 19. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF4035.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF4035.jpg",
           "sourcePath": "photo/Derealisation/DSCF4035.jpg",
           "publicPath": "photo/Derealisation/DSCF4035.webp"
@@ -182,7 +189,7 @@
         {
           "id": "derealisation-20",
           "title": "Derealisation — 20",
-          "description": "Фотография из серии «Derealisation». Номер 20. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF4038.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF4038.jpg",
           "sourcePath": "photo/Derealisation/DSCF4038.jpg",
           "publicPath": "photo/Derealisation/DSCF4038.webp"
@@ -190,7 +197,7 @@
         {
           "id": "derealisation-21",
           "title": "Derealisation — 21",
-          "description": "Фотография из серии «Derealisation». Номер 21. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF4257.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF4257.jpg",
           "sourcePath": "photo/Derealisation/DSCF4257.jpg",
           "publicPath": "photo/Derealisation/DSCF4257.webp"
@@ -198,7 +205,7 @@
         {
           "id": "derealisation-22",
           "title": "Derealisation — 22",
-          "description": "Фотография из серии «Derealisation». Номер 22. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF4279.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF4279.jpg",
           "sourcePath": "photo/Derealisation/DSCF4279.jpg",
           "publicPath": "photo/Derealisation/DSCF4279.webp"
@@ -206,7 +213,7 @@
         {
           "id": "derealisation-23",
           "title": "Derealisation — 23",
-          "description": "Фотография из серии «Derealisation». Номер 23. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF4348.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF4348.jpg",
           "sourcePath": "photo/Derealisation/DSCF4348.jpg",
           "publicPath": "photo/Derealisation/DSCF4348.webp"
@@ -214,7 +221,7 @@
         {
           "id": "derealisation-24",
           "title": "Derealisation — 24",
-          "description": "Фотография из серии «Derealisation». Номер 24. Описание можно переопределить в content/photo-descriptions.json по ключу «Derealisation/DSCF4379.jpg».",
+          "description": "Фотография из серии «Derealisation».",
           "fileName": "DSCF4379.jpg",
           "sourcePath": "photo/Derealisation/DSCF4379.jpg",
           "publicPath": "photo/Derealisation/DSCF4379.webp"
@@ -230,7 +237,7 @@
       "coverPhoto": {
         "id": "ether-01",
         "title": "Ether — 01",
-        "description": "Фотография из серии «Ether». Номер 01. Описание можно переопределить в content/photo-descriptions.json по ключу «Ether/DSCF2781.PNG».",
+        "description": "Фотография из серии «Ether».",
         "fileName": "DSCF2781.PNG",
         "sourcePath": "photo/Ether/DSCF2781.PNG",
         "publicPath": "photo/Ether/DSCF2781.PNG.webp"
@@ -239,7 +246,7 @@
         {
           "id": "ether-01",
           "title": "Ether — 01",
-          "description": "Фотография из серии «Ether». Номер 01. Описание можно переопределить в content/photo-descriptions.json по ключу «Ether/DSCF2781.PNG».",
+          "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2781.PNG",
           "sourcePath": "photo/Ether/DSCF2781.PNG",
           "publicPath": "photo/Ether/DSCF2781.PNG.webp"
@@ -247,7 +254,7 @@
         {
           "id": "ether-02",
           "title": "Ether — 02",
-          "description": "Фотография из серии «Ether». Номер 02. Описание можно переопределить в content/photo-descriptions.json по ключу «Ether/DSCF2788.PNG».",
+          "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2788.PNG",
           "sourcePath": "photo/Ether/DSCF2788.PNG",
           "publicPath": "photo/Ether/DSCF2788.PNG.webp"
@@ -255,7 +262,7 @@
         {
           "id": "ether-03",
           "title": "Ether — 03",
-          "description": "Фотография из серии «Ether». Номер 03. Описание можно переопределить в content/photo-descriptions.json по ключу «Ether/DSCF2791.PNG».",
+          "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2791.PNG",
           "sourcePath": "photo/Ether/DSCF2791.PNG",
           "publicPath": "photo/Ether/DSCF2791.PNG.webp"
@@ -263,7 +270,7 @@
         {
           "id": "ether-04",
           "title": "Ether — 04",
-          "description": "Фотография из серии «Ether». Номер 04. Описание можно переопределить в content/photo-descriptions.json по ключу «Ether/DSCF2810.PNG».",
+          "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2810.PNG",
           "sourcePath": "photo/Ether/DSCF2810.PNG",
           "publicPath": "photo/Ether/DSCF2810.PNG.webp"
@@ -271,7 +278,7 @@
         {
           "id": "ether-05",
           "title": "Ether — 05",
-          "description": "Фотография из серии «Ether». Номер 05. Описание можно переопределить в content/photo-descriptions.json по ключу «Ether/DSCF2841.PNG».",
+          "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2841.PNG",
           "sourcePath": "photo/Ether/DSCF2841.PNG",
           "publicPath": "photo/Ether/DSCF2841.PNG.webp"
@@ -279,7 +286,7 @@
         {
           "id": "ether-06",
           "title": "Ether — 06",
-          "description": "Фотография из серии «Ether». Номер 06. Описание можно переопределить в content/photo-descriptions.json по ключу «Ether/DSCF2874.PNG».",
+          "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2874.PNG",
           "sourcePath": "photo/Ether/DSCF2874.PNG",
           "publicPath": "photo/Ether/DSCF2874.PNG.webp"
@@ -287,7 +294,7 @@
         {
           "id": "ether-07",
           "title": "Ether — 07",
-          "description": "Фотография из серии «Ether». Номер 07. Описание можно переопределить в content/photo-descriptions.json по ключу «Ether/DSCF2884-2.PNG».",
+          "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2884-2.PNG",
           "sourcePath": "photo/Ether/DSCF2884-2.PNG",
           "publicPath": "photo/Ether/DSCF2884-2.PNG.webp"
@@ -295,7 +302,7 @@
         {
           "id": "ether-08",
           "title": "Ether — 08",
-          "description": "Фотография из серии «Ether». Номер 08. Описание можно переопределить в content/photo-descriptions.json по ключу «Ether/DSCF2917.PNG».",
+          "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2917.PNG",
           "sourcePath": "photo/Ether/DSCF2917.PNG",
           "publicPath": "photo/Ether/DSCF2917.PNG.webp"
@@ -303,7 +310,7 @@
         {
           "id": "ether-09",
           "title": "Ether — 09",
-          "description": "Фотография из серии «Ether». Номер 09. Описание можно переопределить в content/photo-descriptions.json по ключу «Ether/DSCF2921.PNG».",
+          "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2921.PNG",
           "sourcePath": "photo/Ether/DSCF2921.PNG",
           "publicPath": "photo/Ether/DSCF2921.PNG.webp"
@@ -319,7 +326,7 @@
       "coverPhoto": {
         "id": "stilllife-01",
         "title": "Stilllife — 01",
-        "description": "Фотография из серии «Stilllife». Номер 01. Описание можно переопределить в content/photo-descriptions.json по ключу «Stilllife/DSCF4459.jpg».",
+        "description": "Фотография из серии «Stilllife».",
         "fileName": "DSCF4459.jpg",
         "sourcePath": "photo/Stilllife/DSCF4459.jpg",
         "publicPath": "photo/Stilllife/DSCF4459.webp"
@@ -328,7 +335,7 @@
         {
           "id": "stilllife-01",
           "title": "Stilllife — 01",
-          "description": "Фотография из серии «Stilllife». Номер 01. Описание можно переопределить в content/photo-descriptions.json по ключу «Stilllife/DSCF4459.jpg».",
+          "description": "Фотография из серии «Stilllife».",
           "fileName": "DSCF4459.jpg",
           "sourcePath": "photo/Stilllife/DSCF4459.jpg",
           "publicPath": "photo/Stilllife/DSCF4459.webp"
@@ -336,7 +343,7 @@
         {
           "id": "stilllife-02",
           "title": "Stilllife — 02",
-          "description": "Фотография из серии «Stilllife». Номер 02. Описание можно переопределить в content/photo-descriptions.json по ключу «Stilllife/DSCF4483.jpg».",
+          "description": "Фотография из серии «Stilllife».",
           "fileName": "DSCF4483.jpg",
           "sourcePath": "photo/Stilllife/DSCF4483.jpg",
           "publicPath": "photo/Stilllife/DSCF4483.webp"
@@ -344,7 +351,7 @@
         {
           "id": "stilllife-03",
           "title": "Stilllife — 03",
-          "description": "Фотография из серии «Stilllife». Номер 03. Описание можно переопределить в content/photo-descriptions.json по ключу «Stilllife/DSCF4491.jpg».",
+          "description": "Фотография из серии «Stilllife».",
           "fileName": "DSCF4491.jpg",
           "sourcePath": "photo/Stilllife/DSCF4491.jpg",
           "publicPath": "photo/Stilllife/DSCF4491.webp"
@@ -360,7 +367,7 @@
       "coverPhoto": {
         "id": "walk-01",
         "title": "Walk — 01",
-        "description": "Фотография из серии «Walk». Номер 01. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4042.jpg».",
+        "description": "Фотография из серии «Walk».",
         "fileName": "DSCF4042.jpg",
         "sourcePath": "photo/Walk/DSCF4042.jpg",
         "publicPath": "photo/Walk/DSCF4042.webp"
@@ -369,7 +376,7 @@
         {
           "id": "walk-01",
           "title": "Walk — 01",
-          "description": "Фотография из серии «Walk». Номер 01. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4042.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4042.jpg",
           "sourcePath": "photo/Walk/DSCF4042.jpg",
           "publicPath": "photo/Walk/DSCF4042.webp"
@@ -377,7 +384,7 @@
         {
           "id": "walk-02",
           "title": "Walk — 02",
-          "description": "Фотография из серии «Walk». Номер 02. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4050.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4050.jpg",
           "sourcePath": "photo/Walk/DSCF4050.jpg",
           "publicPath": "photo/Walk/DSCF4050.webp"
@@ -385,7 +392,7 @@
         {
           "id": "walk-03",
           "title": "Walk — 03",
-          "description": "Фотография из серии «Walk». Номер 03. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4066.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4066.jpg",
           "sourcePath": "photo/Walk/DSCF4066.jpg",
           "publicPath": "photo/Walk/DSCF4066.webp"
@@ -393,7 +400,7 @@
         {
           "id": "walk-04",
           "title": "Walk — 04",
-          "description": "Фотография из серии «Walk». Номер 04. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4071.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4071.jpg",
           "sourcePath": "photo/Walk/DSCF4071.jpg",
           "publicPath": "photo/Walk/DSCF4071.webp"
@@ -401,7 +408,7 @@
         {
           "id": "walk-05",
           "title": "Walk — 05",
-          "description": "Фотография из серии «Walk». Номер 05. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4078.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4078.jpg",
           "sourcePath": "photo/Walk/DSCF4078.jpg",
           "publicPath": "photo/Walk/DSCF4078.webp"
@@ -409,7 +416,7 @@
         {
           "id": "walk-06",
           "title": "Walk — 06",
-          "description": "Фотография из серии «Walk». Номер 06. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4080-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4080-2.jpg",
           "sourcePath": "photo/Walk/DSCF4080-2.jpg",
           "publicPath": "photo/Walk/DSCF4080-2.webp"
@@ -417,7 +424,7 @@
         {
           "id": "walk-07",
           "title": "Walk — 07",
-          "description": "Фотография из серии «Walk». Номер 07. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4081-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4081-2.jpg",
           "sourcePath": "photo/Walk/DSCF4081-2.jpg",
           "publicPath": "photo/Walk/DSCF4081-2.webp"
@@ -425,7 +432,7 @@
         {
           "id": "walk-08",
           "title": "Walk — 08",
-          "description": "Фотография из серии «Walk». Номер 08. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4082-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4082-2.jpg",
           "sourcePath": "photo/Walk/DSCF4082-2.jpg",
           "publicPath": "photo/Walk/DSCF4082-2.webp"
@@ -433,7 +440,7 @@
         {
           "id": "walk-09",
           "title": "Walk — 09",
-          "description": "Фотография из серии «Walk». Номер 09. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4087.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4087.jpg",
           "sourcePath": "photo/Walk/DSCF4087.jpg",
           "publicPath": "photo/Walk/DSCF4087.webp"
@@ -441,7 +448,7 @@
         {
           "id": "walk-10",
           "title": "Walk — 10",
-          "description": "Фотография из серии «Walk». Номер 10. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4088.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4088.jpg",
           "sourcePath": "photo/Walk/DSCF4088.jpg",
           "publicPath": "photo/Walk/DSCF4088.webp"
@@ -449,7 +456,7 @@
         {
           "id": "walk-11",
           "title": "Walk — 11",
-          "description": "Фотография из серии «Walk». Номер 11. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4093-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4093-2.jpg",
           "sourcePath": "photo/Walk/DSCF4093-2.jpg",
           "publicPath": "photo/Walk/DSCF4093-2.webp"
@@ -457,7 +464,7 @@
         {
           "id": "walk-12",
           "title": "Walk — 12",
-          "description": "Фотография из серии «Walk». Номер 12. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4094-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4094-2.jpg",
           "sourcePath": "photo/Walk/DSCF4094-2.jpg",
           "publicPath": "photo/Walk/DSCF4094-2.webp"
@@ -465,7 +472,7 @@
         {
           "id": "walk-13",
           "title": "Walk — 13",
-          "description": "Фотография из серии «Walk». Номер 13. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4098-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4098-2.jpg",
           "sourcePath": "photo/Walk/DSCF4098-2.jpg",
           "publicPath": "photo/Walk/DSCF4098-2.webp"
@@ -473,7 +480,7 @@
         {
           "id": "walk-14",
           "title": "Walk — 14",
-          "description": "Фотография из серии «Walk». Номер 14. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4099-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4099-2.jpg",
           "sourcePath": "photo/Walk/DSCF4099-2.jpg",
           "publicPath": "photo/Walk/DSCF4099-2.webp"
@@ -481,7 +488,7 @@
         {
           "id": "walk-15",
           "title": "Walk — 15",
-          "description": "Фотография из серии «Walk». Номер 15. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4102-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4102-2.jpg",
           "sourcePath": "photo/Walk/DSCF4102-2.jpg",
           "publicPath": "photo/Walk/DSCF4102-2.webp"
@@ -489,7 +496,7 @@
         {
           "id": "walk-16",
           "title": "Walk — 16",
-          "description": "Фотография из серии «Walk». Номер 16. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4106-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4106-2.jpg",
           "sourcePath": "photo/Walk/DSCF4106-2.jpg",
           "publicPath": "photo/Walk/DSCF4106-2.webp"
@@ -497,7 +504,7 @@
         {
           "id": "walk-17",
           "title": "Walk — 17",
-          "description": "Фотография из серии «Walk». Номер 17. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4110.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4110.jpg",
           "sourcePath": "photo/Walk/DSCF4110.jpg",
           "publicPath": "photo/Walk/DSCF4110.webp"
@@ -505,7 +512,7 @@
         {
           "id": "walk-18",
           "title": "Walk — 18",
-          "description": "Фотография из серии «Walk». Номер 18. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4114.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4114.jpg",
           "sourcePath": "photo/Walk/DSCF4114.jpg",
           "publicPath": "photo/Walk/DSCF4114.webp"
@@ -513,7 +520,7 @@
         {
           "id": "walk-19",
           "title": "Walk — 19",
-          "description": "Фотография из серии «Walk». Номер 19. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4116-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4116-2.jpg",
           "sourcePath": "photo/Walk/DSCF4116-2.jpg",
           "publicPath": "photo/Walk/DSCF4116-2.webp"
@@ -521,7 +528,7 @@
         {
           "id": "walk-20",
           "title": "Walk — 20",
-          "description": "Фотография из серии «Walk». Номер 20. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4119-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4119-2.jpg",
           "sourcePath": "photo/Walk/DSCF4119-2.jpg",
           "publicPath": "photo/Walk/DSCF4119-2.webp"
@@ -529,7 +536,7 @@
         {
           "id": "walk-21",
           "title": "Walk — 21",
-          "description": "Фотография из серии «Walk». Номер 21. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4136-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4136-2.jpg",
           "sourcePath": "photo/Walk/DSCF4136-2.jpg",
           "publicPath": "photo/Walk/DSCF4136-2.webp"
@@ -537,7 +544,7 @@
         {
           "id": "walk-22",
           "title": "Walk — 22",
-          "description": "Фотография из серии «Walk». Номер 22. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4140-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4140-2.jpg",
           "sourcePath": "photo/Walk/DSCF4140-2.jpg",
           "publicPath": "photo/Walk/DSCF4140-2.webp"
@@ -545,7 +552,7 @@
         {
           "id": "walk-23",
           "title": "Walk — 23",
-          "description": "Фотография из серии «Walk». Номер 23. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4163-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4163-2.jpg",
           "sourcePath": "photo/Walk/DSCF4163-2.jpg",
           "publicPath": "photo/Walk/DSCF4163-2.webp"
@@ -553,7 +560,7 @@
         {
           "id": "walk-24",
           "title": "Walk — 24",
-          "description": "Фотография из серии «Walk». Номер 24. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4171-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4171-2.jpg",
           "sourcePath": "photo/Walk/DSCF4171-2.jpg",
           "publicPath": "photo/Walk/DSCF4171-2.webp"
@@ -561,7 +568,7 @@
         {
           "id": "walk-25",
           "title": "Walk — 25",
-          "description": "Фотография из серии «Walk». Номер 25. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4181-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4181-2.jpg",
           "sourcePath": "photo/Walk/DSCF4181-2.jpg",
           "publicPath": "photo/Walk/DSCF4181-2.webp"
@@ -569,7 +576,7 @@
         {
           "id": "walk-26",
           "title": "Walk — 26",
-          "description": "Фотография из серии «Walk». Номер 26. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4205-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4205-2.jpg",
           "sourcePath": "photo/Walk/DSCF4205-2.jpg",
           "publicPath": "photo/Walk/DSCF4205-2.webp"
@@ -577,7 +584,7 @@
         {
           "id": "walk-27",
           "title": "Walk — 27",
-          "description": "Фотография из серии «Walk». Номер 27. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4207.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4207.jpg",
           "sourcePath": "photo/Walk/DSCF4207.jpg",
           "publicPath": "photo/Walk/DSCF4207.webp"
@@ -585,7 +592,7 @@
         {
           "id": "walk-28",
           "title": "Walk — 28",
-          "description": "Фотография из серии «Walk». Номер 28. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4211-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4211-2.jpg",
           "sourcePath": "photo/Walk/DSCF4211-2.jpg",
           "publicPath": "photo/Walk/DSCF4211-2.webp"
@@ -593,7 +600,7 @@
         {
           "id": "walk-29",
           "title": "Walk — 29",
-          "description": "Фотография из серии «Walk». Номер 29. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4215-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4215-2.jpg",
           "sourcePath": "photo/Walk/DSCF4215-2.jpg",
           "publicPath": "photo/Walk/DSCF4215-2.webp"
@@ -601,7 +608,7 @@
         {
           "id": "walk-30",
           "title": "Walk — 30",
-          "description": "Фотография из серии «Walk». Номер 30. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4218-2.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4218-2.jpg",
           "sourcePath": "photo/Walk/DSCF4218-2.jpg",
           "publicPath": "photo/Walk/DSCF4218-2.webp"
@@ -609,7 +616,7 @@
         {
           "id": "walk-31",
           "title": "Walk — 31",
-          "description": "Фотография из серии «Walk». Номер 31. Описание можно переопределить в content/photo-descriptions.json по ключу «Walk/DSCF4219.jpg».",
+          "description": "Фотография из серии «Walk».",
           "fileName": "DSCF4219.jpg",
           "sourcePath": "photo/Walk/DSCF4219.jpg",
           "publicPath": "photo/Walk/DSCF4219.webp"
