@@ -6,8 +6,9 @@ const photographerName = 'Марсель Лютик';
 const storageKey = 'marcel-lutik-theme';
 
 const contacts = {
-  email: '',
-  telegram: 'https://t.me/ouji_marcel',
+  email: 'marcel.lyutik@gmail.com',
+  telegramProfile: 'https://t.me/vlyutikov',
+  telegramChannel: 'https://t.me/ouji_marcel',
   instagram: '',
 };
 
@@ -73,6 +74,7 @@ function navigateHome() { window.location.hash = '/'; }
 function navigateSeries(series) { window.location.hash = `/series/${series.slug}`; }
 function navigatePhoto(series, photo) { window.location.hash = `/series/${series.slug}/${photo.id}`; }
 function scrollToHomeSection(sectionId) { const scroll = () => document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); if (parseHash().view !== 'home') { window.location.hash = '/'; window.setTimeout(scroll, 80); return; } scroll(); }
+function telegramHandle(value) { return value.replace('https://t.me/', '@'); }
 
 function SeriesDescription({ text, activeTheme }) {
   const viewportWidth = useViewportWidth();
@@ -130,11 +132,12 @@ function AboutSection({ activeTheme }) {
 
 function ContactsSection({ activeTheme }) {
   const contactItems = [
-    { label: 'Telegram', value: contacts.telegram.replace('https://t.me/', '@'), href: contacts.telegram },
+    { label: 'Telegram-профиль', value: telegramHandle(contacts.telegramProfile), href: contacts.telegramProfile },
+    { label: 'Telegram-канал', value: telegramHandle(contacts.telegramChannel), href: contacts.telegramChannel },
     { label: 'E-mail', value: contacts.email, href: contacts.email ? `mailto:${contacts.email}` : '' },
     { label: 'Instagram', value: contacts.instagram, href: contacts.instagram },
   ].filter((item) => item.value && item.href);
-  return <section id="contacts" className="scroll-mt-28 border-t border-current/10 px-4 py-16 md:px-8 md:py-24"><div className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-start"><div><p className={`mb-5 text-xs uppercase tracking-[0.28em] ${activeTheme.accent}`}>Контакты</p><h2 className="text-4xl font-semibold uppercase leading-none tracking-[0.018em] md:text-6xl">Связь</h2></div><div className={`border-y ${activeTheme.border} py-7`}><p className={`max-w-3xl text-base leading-8 md:text-lg ${activeTheme.muted}`}>Для связи по съёмкам, учебным проектам и сотрудничеству используйте Telegram.</p><div className="mt-8 grid gap-px bg-current/20 md:grid-cols-3">{contactItems.map((item) => <a key={item.label} href={item.href} target={item.href.startsWith('http') ? '_blank' : undefined} rel={item.href.startsWith('http') ? 'noreferrer' : undefined} className={`${activeTheme.card} border ${activeTheme.border} p-5 transition hover:bg-current/5`}><span className={`block text-[10px] uppercase tracking-[0.24em] ${activeTheme.muted}`}>{item.label}</span><span className="mt-3 block text-sm uppercase tracking-[0.14em]">{item.value}</span></a>)}</div></div></div></section>;
+  return <section id="contacts" className="scroll-mt-28 border-t border-current/10 px-4 py-16 md:px-8 md:py-24"><div className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:items-start"><div><p className={`mb-5 text-xs uppercase tracking-[0.28em] ${activeTheme.accent}`}>Контакты</p><h2 className="text-4xl font-semibold uppercase leading-none tracking-[0.018em] md:text-6xl">Связь</h2></div><div className={`border-y ${activeTheme.border} py-7`}><p className={`max-w-3xl text-base leading-8 md:text-lg ${activeTheme.muted}`}>Для связи по съёмкам, проектам и сотрудничеству используйте Telegram-профиль или почту. Telegram-канал оставлен как дополнительная площадка.</p><div className="mt-8 grid gap-px bg-current/20 md:grid-cols-3">{contactItems.map((item) => <a key={item.label} href={item.href} target={item.href.startsWith('http') ? '_blank' : undefined} rel={item.href.startsWith('http') ? 'noreferrer' : undefined} className={`${activeTheme.card} border ${activeTheme.border} p-5 transition hover:bg-current/5`}><span className={`block text-[10px] uppercase tracking-[0.24em] ${activeTheme.muted}`}>{item.label}</span><span className="mt-3 block text-sm uppercase tracking-[0.14em]">{item.value}</span></a>)}</div></div></div></section>;
 }
 
 function SeriesPage({ series, activeTheme }) { const essay = getSeriesEssay(series); return <main className="px-4 py-10 md:px-8 md:py-14"><button type="button" onClick={navigateHome} className={`mb-10 inline-flex items-center gap-3 border ${activeTheme.border} px-4 py-3 text-xs uppercase tracking-[0.18em] ${activeTheme.muted} hover:text-current`}><Icon name="arrowLeft" /> Все серии</button><section className="mb-12 border-b border-current/10 pb-12"><div className="mb-10"><p className={`mb-5 text-xs uppercase tracking-[0.28em] ${activeTheme.accent}`}>Серия / {series.photoCount} кадров</p><h1 className="text-6xl font-semibold uppercase leading-[0.92] tracking-[0.018em] md:text-8xl">{displayTitle(series.title)}</h1></div><SeriesDescription text={essay} activeTheme={activeTheme} /></section><div className="grid gap-px bg-current/20 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">{series.photos.map((photo, index) => <button key={photo.id} type="button" onClick={() => navigatePhoto(series, photo)} className={`${activeTheme.card} group relative aspect-[4/5] overflow-hidden border ${activeTheme.border} text-left`}><img src={assetUrl(photo)} alt={photo.title} loading="lazy" className="absolute inset-0 h-full w-full object-cover grayscale transition duration-700 group-hover:scale-105 group-hover:grayscale-0" /><div className="absolute left-0 top-0 bg-black/70 px-3 py-2 text-[10px] uppercase tracking-[0.22em] text-white/65">{String(index + 1).padStart(2, '0')}</div></button>)}</div></main>; }
