@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-23T07:51:08.019Z",
+  "generatedAt": "2026-05-23T08:28:58.475Z",
   "sourceFolder": "photo",
   "photographerFolder": "photographer",
   "totalSeries": 4,
-  "totalPhotos": 67,
+  "totalPhotos": 66,
   "heroPhoto": {
     "id": "derealisation-01",
     "title": "Derealisation — 01",
@@ -233,7 +233,7 @@
       "title": "Ether",
       "description": "Серия «Ether». Основное описание можно изменить в content/series-descriptions.json.",
       "sourceFolder": "photo/Ether",
-      "photoCount": 9,
+      "photoCount": 8,
       "coverPhoto": {
         "id": "ether-01",
         "title": "Ether — 01",
@@ -263,53 +263,45 @@
           "id": "ether-03",
           "title": "Ether — 03",
           "description": "Фотография из серии «Ether».",
-          "fileName": "DSCF2791.PNG",
-          "sourcePath": "photo/Ether/DSCF2791.PNG",
-          "publicPath": "photo/Ether/DSCF2791.PNG.webp"
-        },
-        {
-          "id": "ether-04",
-          "title": "Ether — 04",
-          "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2810.PNG",
           "sourcePath": "photo/Ether/DSCF2810.PNG",
           "publicPath": "photo/Ether/DSCF2810.PNG.webp"
         },
         {
-          "id": "ether-05",
-          "title": "Ether — 05",
+          "id": "ether-04",
+          "title": "Ether — 04",
           "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2841.PNG",
           "sourcePath": "photo/Ether/DSCF2841.PNG",
           "publicPath": "photo/Ether/DSCF2841.PNG.webp"
         },
         {
-          "id": "ether-06",
-          "title": "Ether — 06",
+          "id": "ether-05",
+          "title": "Ether — 05",
           "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2874.PNG",
           "sourcePath": "photo/Ether/DSCF2874.PNG",
           "publicPath": "photo/Ether/DSCF2874.PNG.webp"
         },
         {
-          "id": "ether-07",
-          "title": "Ether — 07",
+          "id": "ether-06",
+          "title": "Ether — 06",
           "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2884-2.PNG",
           "sourcePath": "photo/Ether/DSCF2884-2.PNG",
           "publicPath": "photo/Ether/DSCF2884-2.PNG.webp"
         },
         {
-          "id": "ether-08",
-          "title": "Ether — 08",
+          "id": "ether-07",
+          "title": "Ether — 07",
           "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2917.PNG",
           "sourcePath": "photo/Ether/DSCF2917.PNG",
           "publicPath": "photo/Ether/DSCF2917.PNG.webp"
         },
         {
-          "id": "ether-09",
-          "title": "Ether — 09",
+          "id": "ether-08",
+          "title": "Ether — 08",
           "description": "Фотография из серии «Ether».",
           "fileName": "DSCF2921.PNG",
           "sourcePath": "photo/Ether/DSCF2921.PNG",
