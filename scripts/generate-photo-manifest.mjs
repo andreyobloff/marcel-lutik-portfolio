@@ -17,6 +17,7 @@ const manifestPath = path.join(generatedDir, 'photoManifest.json');
 const contentDir = path.join(root, 'content');
 const seriesDescriptionsPath = path.join(contentDir, 'series-descriptions.json');
 const photoDescriptionsPath = path.join(contentDir, 'photo-descriptions.json');
+const excludedPhotosPath = path.join(contentDir, 'excluded-photos.json');
 const supportedExtensions = new Set(['.jpg', '.jpeg', '.png', '.webp', '.avif', '.gif']);
 const animatedExtensions = new Set(['.gif']);
 
@@ -38,6 +39,14 @@ function slugify(value) {
 }
 function toPosix(value) { return value.split(path.sep).join('/'); }
 function naturalSort(a, b) { return a.localeCompare(b, 'ru', { numeric: true, sensitivity: 'base' }); }
+function normalizePhotoKey(value) { return String(value).replaceAll('\\', '/').trim().toLowerCase(); }
+function createExcludedSet() { return new Set(readJsonSafe(excludedPhotosPath, []).map(normalizePhotoKey)); }
+function isExcludedPhoto({ id, sourcePath, publicPath, fileName }) {
+  return excludedPhotos.has(normalizePhotoKey(id))
+    || excludedPhotos.has(normalizePhotoKey(sourcePath))
+    || excludedPhotos.has(normalizePhotoKey(publicPath))
+    || excludedPhotos.has(normalizePhotoKey(fileName));
+}
 function walkFiles(dir) {
   if (!fs.existsSync(dir)) return [];
   const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -71,6 +80,7 @@ async function optimizeImage(sourceFile, targetFile, size = 2200, quality = 82) 
 
 if (!fs.existsSync(photoRoot)) throw new Error(`Photo folder not found: ${photoRoot}`);
 
+const excludedPhotos = createExcludedSet();
 const seriesDirs = fs.readdirSync(photoRoot, { withFileTypes: true }).filter((entry) => entry.isDirectory()).map((entry) => entry.name).sort(naturalSort);
 if (seriesDirs.length === 0) throw new Error(`No series directories found in: ${photoRoot}`);
 
@@ -107,31 +117,36 @@ for (const seriesName of seriesDirs) {
   const seriesSlug = count === 0 ? rawSlug : `${rawSlug}-${count + 1}`;
   const photos = [];
 
-  for (let index = 0; index < files.length; index += 1) {
-    const file = files[index];
+  for (const file of files) {
     const relativeFromPhoto = toPosix(path.relative(photoRoot, file));
     const relativeFromSeries = toPosix(path.relative(seriesRoot, file));
     const fileName = path.basename(file);
     const sourceExt = path.extname(fileName).toLowerCase();
     const sourceBaseName = path.basename(fileName, sourceExt);
-    const number = String(index + 1).padStart(2, '0');
+    const number = String(photos.length + 1).padStart(2, '0');
     const id = `${seriesSlug}-${number}`;
     const photoDescriptionKey = `${seriesName}/${relativeFromSeries}`;
     const targetSeriesDir = path.join(publicPhotoRoot, seriesName);
     const targetFileName = animatedExtensions.has(sourceExt) ? fileName : `${sourceBaseName}.webp`;
     const targetFile = getUniqueTargetPath(targetSeriesDir, targetFileName, usedOutputTargets);
-    await optimizeImage(file, targetFile);
     const relativePublicPath = toPosix(path.relative(path.join(root, 'public'), targetFile));
+    const sourcePath = `${photoDirName}/${relativeFromPhoto}`;
+
+    if (isExcludedPhoto({ id, sourcePath, publicPath: relativePublicPath, fileName })) continue;
+
+    await optimizeImage(file, targetFile);
 
     photos.push({
       id,
       title: `${seriesName} — ${number}`,
       description: existingPhotoDescriptions[photoDescriptionKey] || `Фотография из серии «${seriesName}».`,
       fileName,
-      sourcePath: `${photoDirName}/${relativeFromPhoto}`,
+      sourcePath,
       publicPath: relativePublicPath,
     });
   }
+
+  if (photos.length === 0) continue;
 
   const item = { slug: seriesSlug, title: seriesName, description: nextSeriesDescriptions[seriesName], sourceFolder: `${photoDirName}/${seriesName}`, photoCount: photos.length, coverPhoto: photos[0], photos };
   if (!heroPhoto) heroPhoto = photos[0];
